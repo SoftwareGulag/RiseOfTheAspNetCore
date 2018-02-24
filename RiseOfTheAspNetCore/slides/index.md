@@ -1,258 +1,350 @@
-- title : React Native with F#
-- description : Introduction to React Native with F#
-- author : Steffen Forkmann
+- title : Rise of ASP.NET Core
+- description : 
+- author : Jarosław Krefta, Paweł Jeliński
 - theme : night
 - transition : default
 
 ***
 
-## React Native with F#
+## Rise of ASP.NET Core
 
 <br />
 <br />
 
-### Modern mobile app development
-
+Jarosław Krefta
 <br />
-<br />
-Steffen Forkmann - [@sforkmann](http://www.twitter.com/sforkmann)
+Paweł Jeliński
 
 ***
 
-### Modern mobile app development?
+### Who are we?
 
-* UI/UX
-    * "Native mobile apps"
-    * Performance
-* Tooling
-    * Hot loading
-    * IntelliSense
-* Maintainability
-    * Easy to debug
-    * Correctness
+***
 
----
+### Jarosław Krefta
 
-### "Native" UI
+<!-- <img src="images/meter.png" style="background: transparent; border-style: none;"  width=300 /> -->
 
- <img src="images/meter.png" style="background: transparent; border-style: none;"  width=300 />
+***
 
----
+### Paweł Jeliński
 
-### Tooling
-
-<img src="images/hotloading.gif" style="background: transparent; border-style: none;"  />
+<!-- <img src="images/hotloading.gif" style="background: transparent; border-style: none;"  /> -->
 
 *** 
 
-### Model - View - Update
+### What are we not going to talk about
 
-#### "Elm - Architecture"
-
- <img src="images/Elm.png" style="background: white;" width=700 />
-
-
- <small>http://danielbachler.de/2016/02/11/berlinjs-talk-about-elm.html</small>
-
+* something
 
 --- 
 
-### Model - View - Update
+### What are we going to talk about
 
-    // MODEL
+* something
 
-    type Model = int
+***  
 
-    type Msg =
-    | Increment
-    | Decrement
-
-    let init() : Model = 0
-
----
-
-### Model - View - Update
-
-    // VIEW
-
-    let view model dispatch =
-        div []
-            [ button [ OnClick (fun _ -> dispatch Decrement) ] [ str "-" ]
-              div [] [ str (model.ToString()) ]
-              button [ OnClick (fun _ -> dispatch Increment) ] [ str "+" ] ]
-
----
-
-### Model - View - Update
-
-    // UPDATE
-
-    let update (msg:Msg) (model:Model) =
-        match msg with
-        | Increment -> model + 1
-        | Decrement -> model - 1
-
----
-
-### Model - View - Update
-
-    // wiring things up
-
-    Program.mkSimple init update view
-    |> Program.withConsoleTrace
-    |> Program.withReact "elmish-app"
-    |> Program.run
-
----
-
-### Model - View - Update
-
-# Demo
+###Lets go back to ...
 
 ***
 
-### Sub-Components
-
-    // MODEL
-
-    type Model = {
-        Counters : Counter.Model list
-    }
-
-    type Msg = 
-    | Insert
-    | Remove
-    | Modify of int * Counter.Msg
-
-    let init() : Model =
-        { Counters = [] }
+##1996
 
 ---
 
-### Sub-Components
-
-    // VIEW
-
-    let view model dispatch =
-        let counterDispatch i msg = dispatch (Modify (i, msg))
-
-        let counters =
-            model.Counters
-            |> List.mapi (fun i c -> Counter.view c (counterDispatch i)) 
-        
-        div [] [ 
-            yield button [ OnClick (fun _ -> dispatch Remove) ] [  str "Remove" ]
-            yield button [ OnClick (fun _ -> dispatch Insert) ] [ str "Add" ] 
-            yield! counters ]
+###ASP CLASSIC
+<br/>
+###IIS 3.0
 
 ---
 
-### Sub-Components
-
-    // UPDATE
-
-    let update (msg:Msg) (model:Model) =
-        match msg with
-        | Insert ->
-            { Counters = Counter.init() :: model.Counters }
-        | Remove ->
-            { Counters = 
-                match model.Counters with
-                | [] -> []
-                | x :: rest -> rest }
-        | Modify (id, counterMsg) ->
-            { Counters =
-                model.Counters
-                |> List.mapi (fun i counterModel -> 
-                    if i = id then
-                        Counter.update counterMsg counterModel
-                    else
-                        counterModel) }
-
----
-
-### Sub-Components
-
-# Demo
+###JScript
+<br/>
+###ActiveX
 
 ***
 
-### React
-
-* Facebook library for UI 
-* <code>state => view</code>
-* Virtual DOM
+##1997
 
 ---
 
-### Virtual DOM - Initial
-
-<br />
-<br />
-
-
- <img src="images/onchange_vdom_initial.svg" style="background: white;" />
-
-<br />
-<br />
-
- <small>http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html</small>
+###XSP / ASP+
 
 ---
 
-### Virtual DOM - Change
-
-<br />
-<br />
-
-
- <img src="images/onchange_vdom_change.svg" style="background: white;" />
-
-<br />
-<br />
-
- <small>http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html</small>
-
----
-
-### Virtual DOM - Reuse
-
-<br />
-<br />
-
-
- <img src="images/onchange_immutable.svg" style="background: white;" />
-
-<br />
-<br />
-
- <small>http://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html</small>
-
-
-*** 
-
-### ReactNative
-
- <img src="images/ReactNative.png" style="background: white;" />
-
-
- <small>http://timbuckley.github.io/react-native-presentation</small>
+###ECMA
+<br/>
+###HTML 4.0
 
 ***
 
-### Show me the code
+##1998
 
-*** 
+---
 
-### TakeAways
+###ASP CLASSIC 3.0
+<br/>
+###IIS 5.0
 
-* Learn all the FP you can!
-* Simple modular design
+---
 
-*** 
+###Flash
+
+***
+
+##1999 - 2003
+
+---
+
+###ASP.NET 1.0 / 1.1
+<br/>
+###IE 6
+
+---
+
+###Ajax
+<br/>
+###XHTML
+
+***
+
+##2005
+
+---
+
+###ASP.NET 2.0
+
+***
+
+##2006
+
+---
+
+###ASP.NET 3.0
+
+---
+
+###JQuery
+
+***
+
+##2007
+
+---
+
+###ASP.NET 3.5
+###SilverLight
+###ASP.NET AJAX
+###LINQ
+###MVC CTP
+###IE 7
+
+***
+
+##2008
+
+---
+
+###V8
+
+***
+
+##2009
+
+---
+
+###MVC
+###IE 8
+
+---
+
+###Node.Js
+###ES5
+
+***
+
+##2010
+
+---
+
+###ASP.NET 4.0
+###WEB PAGES
+
+---
+
+###Angular
+###Backbone
+###Underscore
+###WTF!!!
+
+***
+
+##2011
+
+---
+
+###MVC
+###Razor
+###IE 9
+
+***
+
+##2012
+
+---
+
+###ASP.NET 4.5
+
+***
+
+##2013
+
+---
+
+###OWIN / Katana
+###SignalR
+###IE 11
+
+---
+
+###React
+
+***
+
+##2014
+
+---
+
+###HTML 5
+###Vue
+
+***
+
+##2015
+
+---
+
+###ASP.NET Core RC
+###Chakra / Edge
+###ES 6
+
+***
+
+##2016
+
+---
+
+###ASP.NET Core 1.0
+
+***
+
+##2017
+
+---
+
+###ASP.Net Core 2.0
+
+***
+
+###Now
+
+***
+
+###How can we use this thing?
+
+***
+
+###Web application in 5 min :)
+
+***
+
+###Stack
+
+---
+
+###Kestrel
+
+---
+
+###Mediator pattern
+
+---
+
+###Frontend 
+
+***
+
+###Journey of request
+
+---
+
+###Human
+
+---
+
+###React component
+
+---
+
+###Event calls Cerebral signal
+
+---
+
+###Cerebral calls chain
+
+---
+
+###Chain calls service
+
+---
+
+###Kestrel receives request
+
+---
+
+###Middleware
+
+---
+
+###Controller
+
+---
+
+###Mediator
+
+---
+
+###Handler
+
+---
+
+###Service
+
+***
+
+###Layers of separation - SOLID
+
+***
+
+###Pros and cons
+
+***
+
+###DEMO :)
+
+***
+
+###Improvements
+
+---
+
+###Interceptors
+
+---
+
+### Monads - Result & Option 
+
+***
 
 ### Thank you!
-
-* https://github.com/fable-compiler/fable-elmish
-* https://ionide.io
-* https://facebook.github.io/react-native/
