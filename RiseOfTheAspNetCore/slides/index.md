@@ -21,7 +21,7 @@ Paweł Jeliński
 
 ---
 
-### JetShop
+<img src="images/jetshop.png" style="background: transparent; border-style: none;" />
 
 ---
 
@@ -103,6 +103,10 @@ Paweł Jeliński
 ---
 
 ###ASP CLASSIC
+<img src="images/Asp-classic.png" style="background: transparent; border-style: none;" />
+
+---
+
 ####ASP Classic is Microsoft's first server-side script engine for dynamically generated web pages
 * Scripting via Virtual Basic (Yes! Not Visual!)
 * Addon for IIS
@@ -144,6 +148,16 @@ Paweł Jeliński
 * First release of **JScript**
 * First release of **ActiveX**
 
+---
+
+### Icon of the "Internet" 
+<img src="images/internet.jpg" style="background: transparent; border-style: none;" />
+
+---
+
+### How to internet
+<img src="images/internet-starter-kit.jpg" style="background: transparent; border-style: none; max-height: 500px;" />
+
 ***
 
 ##1997
@@ -161,9 +175,22 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
+####There actually was a book on ASP+ released in 2000
+<img src="images/AspPlusBook.jpg" style="background: transparent; border-style: none;" />
+
+---
+
 ### Other notable facts
-* First release **ECMA Script**
-* Emergence of new world wide web standard: **HTML 4.0**
+
+---
+
+###First release of ECMA Script Standard
+<img src="images/ecma.jpg" style="background: transparent; border-style: none;" />
+
+---
+
+###Emergence of new world wide web standard: HTML 4.0
+<img src="images/Html4.png" style="background: transparent; border-style: none;" />
 
 ***
 
@@ -178,6 +205,7 @@ ___Scott Guthrie, co creator of ASP.NET___
 ---
 
 ###Flash
+<img src="images/MacomediaFlash.png" style="background: transparent; border-style: none; max-height: 400px;" />
 
 ---
 
@@ -189,15 +217,29 @@ ___Scott Guthrie, co creator of ASP.NET___
 ### Micrsoft after release of Flash
 <img src="images/Mircosoft.jpg" style="background: transparent; border-style: none;" />
 
+---
+
+###What Flash promised
+<img src="images/flashPromise.jpeg" style="background: transparent; border-style: none;" />
+
+---
+
+###What Flash delivered
+<img src="images/flashDelivered.jpg" style="background: transparent; border-style: none;" />
+
 ***
 
 ##1999 - 2003
 
 ---
 
-### Notable Microsoft releases
-* ASP.NET 1.0 / 1.1
-* IE 6
+### ASP.NET 1.0 / 1.1
+<img src="images/asp11.png" style="background: white; border-style: none;" />
+
+---
+
+<img src="images/ie6.png" style="background: white; border-style: none;" />
+
 
 ---
 
@@ -206,6 +248,12 @@ ___Scott Guthrie, co creator of ASP.NET___
 * XHTML
 
 World wide web wanted more extensibility
+
+---
+
+###XHTML - pimp my HTML
+<img src="images/malczerati.jpg" style="background: white; border-style: none;" />
+
 
 ***
 
@@ -254,7 +302,7 @@ World wide web wanted more extensibility
 
 ---
 
-###JQuery
+<img src="images/jquery_logo.png" style="background: transparent; border-style: none;" />
 
 ---
 
@@ -302,7 +350,13 @@ Added support for JSON and POX to WCF
 
 ---
 
-###V8
+###Chromium V8 engine
+<img src="images/v8.png" style="background: transparent; border-style: none; max-height: 400px;" />
+
+---
+
+###New engine of internet
+<img src="images/v8.jpg" style="background: transparent; border-style: none; max-height: 400px;" />
 
 ***
 
@@ -329,7 +383,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET 4.0 and WEB PAGES
-<img src="images/bman.jpg" style="background: transparent; border-style: none;" /> 
+<img src="images/bman.jpg" style="background: transparent; border-style: none; width: 400px;" /> 
 
 ---
 
@@ -338,8 +392,8 @@ Added support for JSON and POX to WCF
 
 ---
 
-### KnockoutJs, Backbone, Underscore
-<img src="images/backbone.jpg" style="background: transparent; border-style: none;" /> 
+### ExpressJs, KnockoutJs, Backbone, Underscore
+<img src="images/backbone.jpg" style="background: transparent; border-style: none; max-height: 500px;" /> 
 
 ***
 
@@ -349,8 +403,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###MVC
-###Razor
-###IE 9
+<img src="images/logo_aspmvc.png" style="background: white; border-style: none; max-height: 500px;" /> 
 
 ***
 
@@ -359,6 +412,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET 4.5 & TPL
+<img src="images/tasks_tpl.png" style="background: white; border-style: none;" /> 
 
 ***
 
@@ -367,17 +421,15 @@ Added support for JSON and POX to WCF
 ---
 
 ###IE 11
-
 <img src="images/WhyDoWeFall.gif" style="background: transparent; border-style: none;" /> 
 
 ---
 ###OWIN / Katana and SignalR
-
 <img src="images/PickUpLie.gif" style="background: transparent; border-style: none;" /> 
 
 ---
 
-###React
+<img src="images/gentelmen.jpg" style="background: white; border-style: none;" /> 
 
 ***
 
@@ -385,8 +437,15 @@ Added support for JSON and POX to WCF
 
 ---
 
-###HTML 5
-###Vue
+<img src="images/galaxy1.png" style="background: transparent; border-style: none;" /> 
+
+---
+
+<img src="images/glaxy2.png" style="background: transparent; border-style: none;" /> 
+
+---
+
+<img src="images/galaxy3.png" style="background: transparent; border-style: none;" /> 
 
 ***
 
@@ -395,8 +454,28 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET Core RC
-###Chakra / Edge
-###ES 6
+
+---
+
+###EcmaScript 6
+<img src="images/es6.png" style="background: white; border-style: none;" /> 
+
+---
+
+###Edge
+<img src="images/edge.jpg" style="background: transparent; border-style: none;" /> 
+
+---
+
+<img src="images/facepalm.jpg" style="background: transparent; border-style: none;" /> 
+
+---
+
+<img src="images/triple_facepalm.jpg" style="background: transparent; border-style: none;" /> 
+
+---
+
+- data-background: images/bluescreen.png
 
 ***
 
@@ -405,6 +484,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET Core 1.0
+<img src="images/dotnetcore.png" style="background: transparent; border-style: none;" /> 
 
 ***
 
@@ -413,6 +493,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.Net Core 2.0
+<img src="images/johncena.gif" style="background: transparent; border-style: none;" /> 
 
 ***
 
