@@ -715,6 +715,9 @@ public interface IManaPool
 
 ***
 
+###Useful links
+
 * https://stackify.com/what-is-kestrel-web-server/
 * https://thefreezeteam.azurewebsites.net/2015/08/10/building-mvc-jimmy-style/
 * https://msdn.microsoft.com/en-us/library/bb266332.aspx
+* https://www.youtube.com/watch?v=kej3YJDMAW4
