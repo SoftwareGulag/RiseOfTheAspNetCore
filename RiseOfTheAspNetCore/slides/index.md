@@ -508,13 +508,53 @@ Added support for JSON and POX to WCF
 
 ###Stack
 
+<img alt="ASP.NET Core architecture" src="images/content/asp_core_architecture_transparent.png" class="img-white" />
+
 ---
 
 ###Kestrel
 
+<img alt="Kestrel" class="img mh500" src="images/content/kestrel_bird.jpg" class="img-white" /> 
+
+---
+
+Kestrel is a cross-platform web server for ASP.NET Core based on libuv, a cross-platform asynchronous I/O library. Kestrel is the web server that's included by default in ASP.NET Core project templates. 
+
+---
+###Kestrel features
+
+* Non-blocking network support
+* Asynchronous file system access
+* Timers
+* Child processes
+
 ---
 
 ###Mediator pattern
+
+![ATC mediator](images/content/ATC_mediator.gif)
+
+---
+
+Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+
+---
+
+###From
+
+![Layer architecture](images/content/onion.png)
+
+---
+
+###To
+
+![Vertical separation](images/content/Vertical_separation.png)
+
+---
+
+###CQRS
+
+![MediatR reuest model](images/content/MediatR.png)
 
 ---
 
@@ -642,6 +682,16 @@ public interface IManaPool
 
 ###Pros and cons
 
+* Pros:
+    - decoupling
+    - performance
+    - easy to extend
+    - flexible
+
+* Cons:
+    - celebration
+    - heavily depends on MediatR and Container
+
 ***
 
 ###DEMO :)
@@ -657,7 +707,14 @@ public interface IManaPool
 ---
 
 ### Monads - Result & Option 
+![Monad monster](images/content/monad.jpg)
 
 ***
 
 ![Tank You!](images/epilogue/tank_you.jpg)
+
+***
+
+* https://stackify.com/what-is-kestrel-web-server/
+* https://thefreezeteam.azurewebsites.net/2015/08/10/building-mvc-jimmy-style/
+* https://msdn.microsoft.com/en-us/library/bb266332.aspx
