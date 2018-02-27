@@ -23,3 +23,11 @@ img {
 .w400 {
     width: 400px !important;
 }
+
+.h200 {
+    height: 200px !important;
+}
+
+.mh200 {
+    max-width: 200px !important;
+}

@@ -455,7 +455,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###EcmaScript 6
-<img alt="ES6 logo" src="images/content/logos/es6.png" class="img-white" /> 
+<img alt="ES6 logo" src="images/content/logos/es6.png" class="img-white" />
 
 ---
 
@@ -558,7 +558,10 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 
 ---
 
-###Frontend 
+###Frontend Stack
+<img alt="ES6 logo" src="images/content/logos/react.png" class="h200" />
+<img alt="ES6 logo" src="images/content/logos/cerebraljs.png" class="h200" />
+<img alt="ES6 logo" src="images/content/logos/material_design.png" class="h200" />
 
 ***
 
@@ -572,18 +575,86 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 ---
 
 ###React component
+```js
+import React, {Component} from 'react';
+import Paper from 'material-ui/Paper';
+import FlatButton from 'material-ui/FlatButton';
+
+class Cell extends Component {
+    constructor (props) {
+        super(props);
+        this.handleOnMakeMove = this.handleOnMakeMove.bind(this);
+    }
+    handleOnMakeMove () {
+        const { cellId, makeMove } = this.props;
+        makeMove({cellId});
+    }
+    render () {
+        return (
+            <Paper className={className} zDepth={isActiveAndNotMarked}>
+                <FlatButton label={cellValue}/>
+            </Paper>
+        );
+    }
+}
+```
 
 ---
 
-###Event calls Cerebral signal
+###Event calls Cerebral signal "makeMove"
+```js
+import {signal} from 'cerebral/tags';
+import {connect} from '@cerebral/react';
+import Cell from './Cell';
+
+connect({
+    makeMove: signal`makeMove`
+}, Cell);
+```
 
 ---
 
 ###Cerebral calls chain
+```js
+import { Module } from 'cerebral';
+import MakeMoveChain from './chain/makeMoveChain'
+
+export default Module({
+  signals: {
+    makeMove: MakeMoveChain,
+  }
+});
+```
 
 ---
 
 ###Chain calls service
+
+```js
+import SendMakeMoveRequest from '../action/sendMakeMoveRequest';
+import MapMakeMoveRequestResponseToState from '../action/mapMakeMoveRequestResponseToState';
+
+const MakeMoveChain = [SendMakeMoveRequest, MapMakeMoveRequestResponseToState];
+
+export default MakeMoveChain;
+```
+
+---
+
+###Service call via SendMakeMoveRequest
+
+```js
+import request from 'superagent';
+
+export default function SendMakeMoveRequest({ props }) {
+    return request
+        .post(`http://localhost:63566/game/move/${props.cellId}`)
+        .send()
+        .then(response => {
+        return { makeMoveRequestResponse: response.body }
+    });
+}
+```
 
 ---
 
