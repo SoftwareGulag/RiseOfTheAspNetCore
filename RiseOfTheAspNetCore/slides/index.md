@@ -567,6 +567,7 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 ---
 
 ###Human
+![Smart monkey](images/content/user.jpg)
 
 ---
 
