@@ -117,28 +117,29 @@ Paweł Jeliński
 * Part of Windows Server 2000
 
 ---
+```vb 
+<html>
+<body>
 
-    <html>
-    <body>
-
-    <%
-        Dim x(1,1)
-        x(0,0)="Volvo"
-        x(0,1)="BMW"
-        x(0,2)="Ford"
-        x(1,0)="Apple"
-        x(1,1)="Orange"
-        for i=0 to 1
-            response.write("<p>")
-            for j=0 to 1
-                response.write(x(i,j) & "<br />")
-            next
-            response.write("</p>")
+<%
+    Dim x(1,1)
+    x(0,0)="Volvo"
+    x(0,1)="BMW"
+    x(0,2)="Ford"
+    x(1,0)="Apple"
+    x(1,1)="Orange"
+    for i=0 to 1
+        response.write("<p>")
+        for j=0 to 1
+            response.write(x(i,j) & "<br />")
         next
-    %>
+        response.write("</p>")
+    next
+%>
 
-    </body>
-    </html>
+</body>
+</html>
+```
 
 ---
 
@@ -559,17 +560,83 @@ Added support for JSON and POX to WCF
 
 ###Controller
 
+```csharp
+ public class MagicController : Controller
+{
+    private readonly IMediator _mediator;
+
+    public MagicController(IMediator mediator)
+    {
+        _mediator = mediator;
+    }
+
+    [HttpPost, Route("spell/cast/{spellId}")]
+    public async Task<IActionResult> CastSpell(int spellId)
+    {   
+        var castSpellResponse = await _mediator.Send(new CastSpellRequest(spellId));
+        return Ok(castSpellResponse);
+    }
+}
+```
+
 ---
 
 ###Mediator
+
+```csharp
+builder.RegisterType<Mediator>().As<IMediator>().InstancePerLifetimeScope();
+
+// request handlers
+builder
+    .Register<SingleInstanceFactory>(ctx => {
+        var c = ctx.Resolve<IComponentContext>();
+        return t => { object o; return c.TryResolve(t, out o) ? o : null; };
+    })
+    .InstancePerLifetimeScope();
+
+// notification handlers
+builder
+    .Register<MultiInstanceFactory>(ctx => {
+        var c = ctx.Resolve<IComponentContext>();
+        return t => 
+            (IEnumerable<object>)c.Resolve(
+                typeof(IEnumerable<>).MakeGenericType(t)
+            );
+    })
+    .InstancePerLifetimeScope();
+```
 
 ---
 
 ###Handler
 
+```csharp
+public class MagicHandler : RequestHandler<CastSpellRequest, CastSpellResponse>
+{
+    private readonly IManaPool _manaPool;
+
+    public CreateBoardHandler(IManaPool manaPool)
+    {
+        _manaPool = manaPool;
+    }
+
+    protected override CastSpellResponse HandleCore(CastSpellRequest request)
+    {
+        //...
+    }
+}
+```
+
 ---
 
 ###Service
+
+```csharp
+public interface IManaPool
+{
+    int GetSomeMana();
+}
+```
 
 ***
 
