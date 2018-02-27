@@ -1,0 +1,25 @@
+img {
+    background: transparent !important;
+    border-style: none !important;
+}
+
+.img-white {
+    background: white !important;
+    border-style: none !important;
+}
+
+.mh600 {
+    max-height: 600px !important;
+}
+
+.mh400 {
+    max-height: 400px !important;
+}
+
+.mh500 {
+    max-height: 500px !important;
+}
+
+.w400 {
+    width: 400px !important;
+}

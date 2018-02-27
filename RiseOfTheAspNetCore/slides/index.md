@@ -6,91 +6,87 @@
 
 ***
 
-## Rise of ASP.NET Core
-
-<br />
-<br />
-
-Jarosław Krefta
-<br />
+##Rise of ASP.NET Core
+<br/>
+<br/>
+Jarosław Krefta<br/>
 Paweł Jeliński
 
 ***
 
-### Who do we work for?
+###Who do we work for?
 
 ---
 
-<img src="images/jetshop.png" style="background: transparent; border-style: none;" />
+![Jet Shop](images/introduction/jetshop.png)
 
 ---
 
-### Aka " The Jetson team " :)
-<img src="images/JetsonsTeam.jpg" style="background: transparent; border-style: none;" />
+###Aka " The Jetson team " :)
+![Jetsons Team](images/introduction/jetsons_team.jpg)
 
 ***
 
-### Who are we?
-<img src="images/Drombo.jpg" style="background: transparent; border-style: none;" />
+###Who are we?
+![Jetsons Team](images/introduction/drombo.jpg)
 
 ***
 
-### Jarosław Krefta
+###Jarosław Krefta
 
 ---
 
-### Guess which one I am? :)
-<img src="images/AstroPlusGeorge.jpg" style="background: transparent; border-style: none;" />
+###Guess which one I am? :)
+![Astro and George](images/introduction/jarek/astro_plus_george.jpg)
 
 ---
 
-### Yes. Obviously!
-<img src="images/astruuu.jpg" style="background: transparent; border-style: none;" />
+###Obviously!
+![Astruuu](images/introduction/jarek/astruuu.jpg)
 
 ---
 
-### But 20 years later
-<img src="images/Chewbacca.jpg" style="background: transparent; border-style: none;" />
+###But 20 years later
+![Chewbacca](images/introduction/jarek/chewbacca.jpg)
 
 ***
 
-### Paweł Jeliński
+###Paweł Jeliński
 
 ---
 
-### How do I see Myself
-<img src="images/dreed.png" style="background: transparent; border-style: none;"  />
+###How do I see Myself
+![Judge Dreed](images/introduction/pawel/dreed.png)
 
 ---
 
-### How teammates see me
-<img src="images/Justice!.jpg" style="background: transparent; border-style: none;"  />
+###How teammates see me
+![Justice!](images/introduction/pawel/justice.jpg)
 
 ---
 
-### What does our boss see
-<img src="images/SpanishInquisition.jpg" style="background: transparent; border-style: none;"  />
+###What does our boss see
+![Spanish Inquisition](images/introduction/pawel/spanish_inquisition.jpg)
 
 ---
 
-### To be more exact
-<img src="images/Inquisitor.jpg" style="background: transparent; border-style: none;"  />
+###To be more exact
+![Inquisitor](images/introduction/pawel/inquisitor.jpg)
 
 *** 
 
-### What are we not going to talk about
-<img src="images/pinkyAndBrain.jpg" style="background: transparent; border-style: none; max-height: 600px;" />
+###What are we not going to talk about
+<img alt="Pinky and Brain" src="images/introduction/pinky_and_brain.jpg" class="mh600" />
 
 --- 
 
-### We are not going to sell you anything
-### .Net is not a " Golden Hammer "
+###We are not going to sell you anything
+###.Net is not a " Golden Hammer "
 
 --- 
 
-### What are we going to talk about
-
-<img src="images/Spoon.jpg" style="background: transparent; border-style: none;" />
+###What are we going to talk about
+![Spoon](images/introduction/spoon.jpg)
 
 ***  
 
@@ -103,7 +99,7 @@ Paweł Jeliński
 ---
 
 ###ASP CLASSIC
-<img src="images/Asp-classic.png" style="background: transparent; border-style: none;" />
+![Asp Classic Logo](images/content/logos/asp_classic.png)
 
 ---
 
@@ -143,7 +139,7 @@ Paweł Jeliński
 
 ---
 
-### Other notable facts
+###Other notable facts
 * Release of **IIS 3.0**
 * Release of **Internet Explorer 3.0**
 * First release of **JScript**
@@ -151,13 +147,13 @@ Paweł Jeliński
 
 ---
 
-### Icon of the "Internet" 
-<img src="images/internet.jpg" style="background: transparent; border-style: none;" />
+###Icon of the "Internet" 
+![Asp Classic Logo](images/content/logos/ie3.jpg)
 
 ---
 
-### How to internet
-<img src="images/internet-starter-kit.jpg" style="background: transparent; border-style: none; max-height: 500px;" />
+###How to internet
+<img alt="IE starter kit" src="images/content/internet-starter-kit.jpg" class="mh500" />
 
 ***
 
@@ -177,7 +173,7 @@ ___Scott Guthrie, co creator of ASP.NET___
 ---
 
 ####There actually was a book on ASP+ released in 2000
-<img src="images/AspPlusBook.jpg" style="background: transparent; border-style: none;" />
+![Asp Plus Book](images/content/asp_plus_book.jpg)
 
 ---
 
@@ -186,12 +182,12 @@ ___Scott Guthrie, co creator of ASP.NET___
 ---
 
 ###First release of ECMA Script Standard
-<img src="images/ecma.jpg" style="background: transparent; border-style: none;" />
+![ECMA Logo](images/content/logos/ecma.jpg)
 
 ---
 
 ###Emergence of new world wide web standard: HTML 4.0
-<img src="images/Html4.png" style="background: transparent; border-style: none;" />
+![HTML4 Logo](images/content/logos/html4.png)
 
 ***
 
@@ -199,34 +195,34 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
-### Notable Microsoft releases
+###Notable Microsoft releases
 * ASP CLASSIC 3.0 - last of it`s kind :)
 * IIS 5.0 - released with new ASP
 
 ---
 
 ###Flash
-<img src="images/MacomediaFlash.png" style="background: transparent; border-style: none; max-height: 400px;" />
+<img alt="Flash icon" src="images/content/flash/flash_icon.png" class="mh400" />
 
 ---
 
-### Internet after release of Flash
-<img src="images/OmgCat.jpg" style="background: transparent; border-style: none;" />
+###Internet after release of Flash
+![Omg cat](images/content/reactions/omg_cat.jpg)
 
 ---
 
-### Micrsoft after release of Flash
-<img src="images/Mircosoft.jpg" style="background: transparent; border-style: none;" />
+###Micrsoft after release of Flash
+![Mind Blown!](images/content/reactions/mind_blown.jpg)
 
 ---
 
 ###What Flash promised
-<img src="images/flashPromise.jpeg" style="background: transparent; border-style: none;" />
+![What flash promised](images/content/flash/flash_promise.jpeg)
 
 ---
 
 ###What Flash delivered
-<img src="images/flashDelivered.jpg" style="background: transparent; border-style: none;" />
+![What flash delivered](images/content/flash/flash_delivered.jpg)
 
 ***
 
@@ -234,17 +230,17 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
-### ASP.NET 1.0 / 1.1
-<img src="images/asp11.png" style="background: white; border-style: none;" />
+###ASP.NET 1.0 / 1.1
+<img src="images/content/logos/asp_net_1_1.png" class="img-white" />
 
 ---
 
-<img src="images/ie6.png" style="background: white; border-style: none;" />
+<img src="images/content/logos/ie6.png" class="img-white" />
 
 
 ---
 
-### Emergence of new world wide web standards:
+###Emergence of new world wide web standards:
 * Ajax
 * XHTML
 
@@ -253,7 +249,7 @@ World wide web wanted more extensibility
 ---
 
 ###XHTML - pimp my HTML
-<img src="images/malczerati.jpg" style="background: white; border-style: none;" />
+![Pimp My HTML!](images/content/malczerati.jpg)
 
 
 ***
@@ -266,12 +262,12 @@ World wide web wanted more extensibility
 
 ---
 
-### ...
+###...
 
 ---
 
-### There is literaly nothing from Microsoft
-<img src="images/Travolta2.gif" style="background: transparent; border-style: none;" loop="" />
+###There is literaly nothing from Microsoft
+![Where is everyone!?](images/content/Travolta2.gif)
 
 ***
 
@@ -279,16 +275,16 @@ World wide web wanted more extensibility
 
 ---
 
-### Microsoft realizes that they need to get their "stuff" together
-<img src="images/TrutleRabit.jpg" style="background: transparent; border-style: none;" />
+###Microsoft realizes that they need to get their "stuff" together
+![Turtle vs Rabbit!](images/content/turtle_rabit.jpg)
 
 ---
 
-### So to make it up to web developers ...
+###So to make it up to web developers ...
 
 ---
 
-### ASP.NET 2.0
+###ASP.NET 2.0
 * Full support of ECMA standard
 * Generic types
 * Support for x64 CPU's
@@ -303,17 +299,17 @@ World wide web wanted more extensibility
 
 ---
 
-<img src="images/jquery_logo.png" style="background: transparent; border-style: none;" />
+![JQuery logo](images/content/logos/jquery.png)
 
 ---
 
-### Micrsoft after last release of Flash
-<img src="images/Mircosoft.jpg" style="background: transparent; border-style: none;" />
+###Micrsoft after last release of Flash
+![Mind Blown!](images/content/reactions/mind_blown.jpg)
 
 ---
 
-### Lets make our own!
-<img src="images/priseTheSun.gif" style="background: transparent; border-style: none;" />
+###Lets make our own!
+![Mind Blown!](images/content/reactions/prise_the_sun.gif)
 
 ***
 
@@ -321,16 +317,16 @@ World wide web wanted more extensibility
 
 ---
 
-### SilverLight! Yeaaaah!
-<img src="images/silverlight.gif" style="background: transparent; border-style: none;" />
+###SilverLight! Yeaaaah!
+![Oh Yeah!](images/content/reactions/yeah.gif)
 
 ---
 
-<img src="images/trump.jpg" style="background: transparent; border-style: none;" />
+![Trump](images/content/reactions/trump.jpg)
 
 ---
 
-<img src="images/soundsgood.jpg" style="background: transparent; border-style: none;" />
+![Sounds good, does not work!](images/content/reactions/sounds_good_does_not_work.jpg)
 
 ---
 
@@ -352,12 +348,12 @@ Added support for JSON and POX to WCF
 ---
 
 ###Chromium V8 engine
-<img src="images/v8.png" style="background: transparent; border-style: none; max-height: 400px;" />
+<img alt="V8 Chromium" src="images/content/logos/v8.png" class="img mh400" />
 
 ---
 
 ###New engine of internet
-<img src="images/v8.jpg" style="background: transparent; border-style: none; max-height: 400px;" />
+<img alt="V8 Engine" src="images/content/v8.jpg" class="img mh400" />
 
 ***
 
@@ -371,11 +367,11 @@ Added support for JSON and POX to WCF
 ---
 
 ###Emergence of EcmaScript5 and Node.Js
-<img src="images/bane.jpg" style="background: transparent; border-style: none;" />
+![Bane](images/content/bane/bane.jpg)
 
 ---
 
-<img src="images/nodebane.jpg" style="background: transparent; border-style: none;" />
+![You think internet is your ally!](images/content/bane/bane_internet.jpg)
 
 ***
 
@@ -384,17 +380,17 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET 4.0 and WEB PAGES
-<img src="images/bman.jpg" style="background: transparent; border-style: none; width: 400px;" /> 
+<img alt="Baman!" src="images/content/bman.jpg" class="w400" /> 
 
 ---
 
 ###Angular
-<img src="images/banePicksUp.jpg" style="background: transparent; border-style: none;" /> 
+![Bane holds Batman](images/content/bane/bane_picks_batman.jpg)
 
 ---
 
 ### ExpressJs, KnockoutJs, Backbone, Underscore
-<img src="images/backbone.jpg" style="background: transparent; border-style: none; max-height: 500px;" /> 
+<img alt="Bane breaks Batman" src="images/content/bane/bane_breaks_batman.jpg" class="mh500" /> 
 
 ***
 
@@ -404,7 +400,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###MVC
-<img src="images/logo_aspmvc.png" style="background: white; border-style: none; max-height: 500px;" /> 
+<img alt="Asp Net MVC logo" src="images/content/logos/asp_net_mvc.png" class="img-white mh500" /> 
 
 ***
 
@@ -413,7 +409,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET 4.5 & TPL
-<img src="images/tasks_tpl.png" style="background: white; border-style: none;" /> 
+![Tasks! Tasks everywhere!](images/content/tasks_tpl.png)
 
 ***
 
@@ -422,15 +418,15 @@ Added support for JSON and POX to WCF
 ---
 
 ###IE 11
-<img src="images/WhyDoWeFall.gif" style="background: transparent; border-style: none;" /> 
+![Why do we fall Bruce?](images/content/WhyDoWeFall.gif)
 
 ---
 ###OWIN / Katana and SignalR
-<img src="images/PickUpLie.gif" style="background: transparent; border-style: none;" /> 
+![So that we can get up!](images/content/PickUpLie.gif)
 
 ---
 
-<img src="images/gentelmen.jpg" style="background: white; border-style: none;" /> 
+![React Invented!](images/content/gentelmen.jpg)
 
 ***
 
@@ -438,15 +434,15 @@ Added support for JSON and POX to WCF
 
 ---
 
-<img src="images/galaxy1.png" style="background: transparent; border-style: none;" /> 
+![Blue crawl text](images/content/star_wars/galaxy1.png)
 
 ---
 
-<img src="images/glaxy2.png" style="background: transparent; border-style: none;" /> 
+![Title crawl text](images/content/star_wars/galaxy2.png)
 
 ---
 
-<img src="images/galaxy3.png" style="background: transparent; border-style: none;" /> 
+![Content crawl text](images/content/star_wars/galaxy3.png)
 
 ***
 
@@ -459,24 +455,24 @@ Added support for JSON and POX to WCF
 ---
 
 ###EcmaScript 6
-<img src="images/es6.png" style="background: white; border-style: none;" /> 
+<img alt="ES6 logo" src="images/content/logos/es6.png" class="img-white" /> 
 
 ---
 
 ###Edge
-<img src="images/edge.jpg" style="background: transparent; border-style: none;" /> 
+![Edge logo](images/content/logos/edge.jpg)
 
 ---
 
-<img src="images/facepalm.jpg" style="background: transparent; border-style: none;" /> 
+![Facepalm](images/content/reactions/facepalm.jpg)
 
 ---
 
-<img src="images/triple_facepalm.jpg" style="background: transparent; border-style: none;" /> 
+![Triple facepalm](images/content/reactions/triple_facepalm.jpg)
 
 ---
 
-- data-background: images/bluescreen.png
+- data-background: images/content/bluescreen.png
 
 ***
 
@@ -485,7 +481,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.NET Core 1.0
-<img src="images/dotnetcore.png" style="background: transparent; border-style: none;" /> 
+![Asp Net Core 1.0](images/content/logos/dotnetcore.png)
 
 ***
 
@@ -494,7 +490,7 @@ Added support for JSON and POX to WCF
 ---
 
 ###ASP.Net Core 2.0
-<img src="images/johncena.gif" style="background: transparent; border-style: none;" /> 
+![John Cena Super Sayan](images/content/johncena.gif)
 
 ***
 
@@ -664,4 +660,4 @@ public interface IManaPool
 
 ***
 
-### Thank you!
+![Tank You!](images/epilogue/tank_you.jpg)
