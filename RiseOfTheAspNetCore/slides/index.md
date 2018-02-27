@@ -494,7 +494,16 @@ Added support for JSON and POX to WCF
 
 ***
 
-###Now
+###Summary
+
+---
+
+###Browser Wars
+<img alt="Browser wars" src="images/Browser_Wars_(en).png" class="img-white" />
+
+---
+
+https://www.techempower.com/benchmarks/
 
 ***
 
