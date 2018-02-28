@@ -1,0 +1,14 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "markline server timeline.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markline": "^0.6.0"
+  }
+}

@@ -72,7 +72,7 @@
 * 2015~2018 Edge
 
 ## Other browsers
-* 1996~2003 Netscape Navigator
+* 1996~2008 Netscape Navigator
 * 2004~2018 Opera
 * 2004~2018 Firefox
 * 2005~2018 Safari
