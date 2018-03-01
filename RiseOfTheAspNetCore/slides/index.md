@@ -218,7 +218,12 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
-###Flash
+###Google is born
+![Google](images/content/old_google.png)
+
+---
+
+###Macromedia released Flash 
 <img alt="Flash icon" src="images/content/flash/flash_icon.png" class="mh400" />
 
 ' Internet exploded with Flash movies and games
@@ -349,12 +354,12 @@ ___Scott Guthrie, co creator of ASP.NET___
 ---
 
 ###Java gets first SpringMVC release!
-<img alt="Java" src="images/content/logos/java.png" class="mh400 img-white" />
+![SpringMVC!](images/content/logos/spring_mvc.jpg)
 
 ---
 
-###PHP gets CakePHP!
-<img alt="Potato" src="images/content/potato.jpg" class="mh400 img-white" />
+###PHP gets Cake!
+![CakePHP!](images/content/logos/cake_php.jpg)
 
 ***
 
@@ -369,6 +374,7 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
+###JQuery reaches version 1.0
 ![JQuery logo](images/content/logos/jquery.png)
 
 ' Frontend revolution
@@ -424,7 +430,11 @@ ___Scott Guthrie, co creator of ASP.NET___
 ###ASP.NET 3.5
 ###ASP.NET AJAX
 ###LINQ
-###MVC CTP
+
+---
+
+###MVC CTP is released
+####CTP = Current Technology Preview
 
 ' CTP - Community Technology Preview
 ' ASP.NET AJAX standardized handling of ajax calls
@@ -461,6 +471,11 @@ Added support for JSON to WCF
 
 ---
 
+###Bing is born
+![Bane](images/content/logos/bing.jpg)
+
+---
+
 ###Meanwhile ...
 
 ---
@@ -492,7 +507,12 @@ Added support for JSON to WCF
 
 ---
 
-###ExpressJs, KnockoutJs, Backbone, Underscore
+####ExpressJs, KnockoutJs, Backbone, Underscore
+####AND
+####MEAN = MongoDb, ExpressJs, AngularJs, NodeJs
+
+---
+
 <img alt="Bane breaks Batman" src="images/content/bane/bane_breaks_batman.jpg" class="mh500" /> 
 
 ***
@@ -516,6 +536,11 @@ Added support for JSON to WCF
 
 ###ASP.NET 4.5 & TPL
 ![Tasks! Tasks everywhere!](images/content/tasks_tpl.png)
+
+---
+
+###Web Api gets extracted from MVC
+![Web Api 2](images/content/logos/asp_net_web_api.png)
 
 ***
 
