@@ -76,7 +76,7 @@ Paweł Jeliński
 --- 
 
 ###What are we going to talk about
-
+![Spoon](images/introduction/spoon.jpg)
 
 ---
 
@@ -85,7 +85,6 @@ Paweł Jeliński
 ***  
 
 ###Lets go back to ...
-![Spoon](images/introduction/spoon.jpg)
 
 ***
 
@@ -318,14 +317,6 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
-###...
-
----
-
-![Where is everyone!?](images/content/good_bad_ugly.gif)
-
----
-
 ###There is literaly nothing from Microsoft
 ![Where is everyone!?](images/content/Travolta2.gif)
 
@@ -466,6 +457,8 @@ Added support for JSON to WCF
 ###MVC gets released
 ####It`s only 4 years late!
 
+<img alt="Asp Net MVC logo" src="images/content/logos/asp_net_mvc.png" class="img-white mh500" /> 
+
 ---
 
 ###Meanwhile ...
@@ -506,11 +499,14 @@ Added support for JSON to WCF
 
 ##It`s 2011
 
+---
+
+###There is nothing from Microsoft
+![Where is everyone!?](images/content/Travolta2.gif)
 
 ---
 
-###MVC
-<img alt="Asp Net MVC logo" src="images/content/logos/asp_net_mvc.png" class="img-white mh500" /> 
+###... beside MVC 3 :)
 
 ***
 
