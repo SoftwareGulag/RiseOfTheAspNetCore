@@ -44,11 +44,6 @@ Paweł Jeliński
 ###Obviously!
 ![Astruuu](images/introduction/jarek/astruuu.jpg)
 
----
-
-###But 20 years later
-![Chewbacca](images/introduction/jarek/chewbacca.jpg)
-
 ***
 
 ###Paweł Jeliński
@@ -81,7 +76,7 @@ Paweł Jeliński
 --- 
 
 ###What are we going to talk about
-![Spoon](images/introduction/spoon.jpg)
+
 
 ---
 
@@ -90,14 +85,30 @@ Paweł Jeliński
 ***  
 
 ###Lets go back to ...
+![Spoon](images/introduction/spoon.jpg)
 
 ***
 
-##1996
+##It`s 1996 ...
 
 ---
 
-###ASP CLASSIC
+###Browsers are at war!
+<img alt="Browser wars" src="images/Browser_Wars_(en).png" class="img-white" />
+
+---
+
+###PHP has power equal to potato
+<img alt="Potato" src="images/content/potato.jpg" class="mh400 img-white" />
+
+---
+
+###Java just got released and has nothing
+<img alt="Java" src="images/content/logos/java.png" class="mh400 img-white" />
+
+---
+
+###ASP CLASSIC gets released
 ![Asp Classic Logo](images/content/logos/asp_classic.png)
 
 ---
@@ -109,7 +120,6 @@ Paweł Jeliński
 * Supports COM modules
 * Supports ActiveX(PearlScript)
 * Runs on Windows NT 4.0
-* Part of Windows Server 2000
 
 ---
 ```vb 
@@ -146,17 +156,21 @@ Paweł Jeliński
 
 ---
 
-###Icon of the "Internet" 
-![Asp Classic Logo](images/content/logos/ie3.jpg)
+####Internet explorer starts getting noticed! (10% of market)
+<img alt="IE starter kit" src="images/content/internet-starter-kit.jpg" class="mh500" />
 
 ---
 
-###How to internet
-<img alt="IE starter kit" src="images/content/internet-starter-kit.jpg" class="mh500" />
+###Great Success!
+![Great Success!](images/content/reactions/win_internet.jpg)
 
 ***
 
-##1997
+##It`s 1997
+
+---
+
+###New project gets started!
 
 ---
 
@@ -180,7 +194,7 @@ ___Scott Guthrie, co creator of ASP.NET___
 
 ---
 
-###First release of ECMA Script Standard
+###First release of EcmaScript!
 ![ECMA Logo](images/content/logos/ecma.jpg)
 
 ---
@@ -188,20 +202,29 @@ ___Scott Guthrie, co creator of ASP.NET___
 ###Emergence of new world wide web standard: HTML 4.0
 ![HTML4 Logo](images/content/logos/html4.png)
 
+---
+
+###Java releases servlets
+<img alt="Java" src="images/content/logos/java.png" class="mh400 img-white" />
+
 ***
 
-##1998
+##It`s 1998
 
 ---
 
-###Notable Microsoft releases
-* ASP CLASSIC 3.0 - last of it`s kind :)
-* IIS 5.0 - released with new ASP
+###ASP CLASSIC 3.0 - last of it`s kind :)
+' Last release was in 2000
+' Will be supported until 2025
 
 ---
 
 ###Flash
 <img alt="Flash icon" src="images/content/flash/flash_icon.png" class="mh400" />
+
+' Internet exploded with Flash movies and games
+' First truly active frontend
+' Could not communicate between separate flash clips
 
 ---
 
@@ -223,37 +246,71 @@ ___Scott Guthrie, co creator of ASP.NET___
 ###What Flash delivered
 ![What flash delivered](images/content/flash/flash_delivered.jpg)
 
+' Required heavy loading
+' Did not always run
+' Required plugin in browser
+' Was abused by community
+
 ***
 
 ##1999 - 2003
 
 ---
 
-###ASP.NET 1.0 / 1.1
+###ASP.NET 1.0/1.1 gets released
 <img src="images/content/logos/asp_net_1_1.png" class="img-white" />
+
+' Good old ASP in new managed version
+' Garbage collector does not impound scaling :)
+' This is WebForms
+' Same architecture as WinForms
+' Event driven architecture
+' Upfront and code behind approach to design web application
 
 ---
 
-<img src="images/content/logos/ie6.png" class="img-white" />
+###Cassini. First .net self hosted server
+![What flash delivered](images/content/cassini.png)
 
+' Required by .Net 1.0
+' Obsolete from .Net 1.1
+' Lived until 2008 as a part of VisualStudio
+' Modified by community 
+ 
+---
+
+###Internet Explorer has won browser wars!
+<img src="images/content/logos/ie6.png" class="img-white" />
 
 ---
 
 ###Emergence of new world wide web standards:
-* Ajax
-* XHTML
-
-World wide web wanted more extensibility
+' World wide web wanted more extensibility
 
 ---
 
-###XHTML - pimp my HTML
-![Pimp My HTML!](images/content/malczerati.jpg)
+###Ajax!
+<img src="images/content/ajax.jpg" class="mh600" />
 
+---
+
+###I mean ...
+<img src="images/content/logos/ajax.png" class="img-white" />
+
+---
+
+###New HTML standard
+![XHTML logo](images/content/logos/xhtml.png)
+
+
+---
+
+###Pimp my HTML
+![Pimp My HTML!](images/content/malczerati.jpg)
 
 ***
 
-##2004
+##It`s 2004
 
 ---
 
@@ -265,12 +322,16 @@ World wide web wanted more extensibility
 
 ---
 
+![Where is everyone!?](images/content/good_bad_ugly.gif)
+
+---
+
 ###There is literaly nothing from Microsoft
 ![Where is everyone!?](images/content/Travolta2.gif)
 
 ***
 
-##2005
+##It`s 2005
 
 ---
 
@@ -283,66 +344,108 @@ World wide web wanted more extensibility
 
 ---
 
-###ASP.NET 2.0
+###ASP.NET 2.0 gets released!
 * Full support of ECMA standard
 * Generic types
 * Support for x64 CPU's
 
-***
-
-##2006
+' Supports calls from frontend to backend
 
 ---
 
-###ASP.NET 3.0
+###Problem is ...
+
+---
+
+###Java gets first SpringMVC release!
+<img alt="Java" src="images/content/logos/java.png" class="mh400 img-white" />
+
+---
+
+###PHP gets CakePHP!
+<img alt="Potato" src="images/content/potato.jpg" class="mh400 img-white" />
+
+***
+
+##It`s 2006
+
+---
+
+###ASP.NET 3.0 gets released
+
+' WPF was released
+' WCF was released
 
 ---
 
 ![JQuery logo](images/content/logos/jquery.png)
+
+' Frontend revolution
+' Allowed for dynamic component rendering
+' Encapsulated AJAX calls for all browsers
+' Allowed HTML element theming
+
+---
+
+###Flash has reached its end of life
+<img alt="Flash icon" src="images/content/flash/flash_icon.png" class="mh400" />
 
 ---
 
 ###Micrsoft after last release of Flash
 ![Mind Blown!](images/content/reactions/mind_blown.jpg)
 
+' Microsoft was happy because they ware working on their own version
+
 ---
 
-###Lets make our own!
+###Flash died! Lets release our own!
 ![Mind Blown!](images/content/reactions/prise_the_sun.gif)
 
 ***
 
-##2007
+##It`s 2007
 
 ---
 
-###SilverLight! Yeaaaah!
+###SilverLight!
 ![Oh Yeah!](images/content/reactions/yeah.gif)
 
 ---
 
+###Realy?
 ![Trump](images/content/reactions/trump.jpg)
 
 ---
 
+###Why do you release your own Flash!
 ![Sounds good, does not work!](images/content/reactions/sounds_good_does_not_work.jpg)
+
+' Silverlight was pipeline for in browser execution of .net code
+' Used to write sidebar widgets
+' Used ActiveX and COM controls
+' Desktop like architecture
+' Awfully slow
+' Example of enterprise integration with legacy
 
 ---
 
 ###ASP.NET 3.5
-###SilverLight
 ###ASP.NET AJAX
 ###LINQ
 ###MVC CTP
-###IE 7
+
+' CTP - Community Technology Preview
+' ASP.NET AJAX standardized handling of ajax calls
 
 ---
+
 ###Press X to JSON
-Added support for JSON and POX to WCF
+Added support for JSON to WCF
 
 ***
 
-##2008
+##It`s 2008
 
 ---
 
@@ -356,16 +459,20 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2009
+##It`s 2009
 
 ---
 
-###MVC
-###IE 8
+###MVC gets released
+####It`s only 4 years late!
 
 ---
 
-###Emergence of EcmaScript5 and Node.Js
+###Meanwhile ...
+
+---
+
+###EcmaScript5 and Node.Js emerges
 ![Bane](images/content/bane/bane.jpg)
 
 ---
@@ -374,26 +481,30 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2010
+##It`s 2010
 
 ---
 
-###ASP.NET 4.0 and WEB PAGES
+###Release of ASP.NET 4.0 and WEB PAGES
 <img alt="Baman!" src="images/content/bman.jpg" class="w400" /> 
 
 ---
 
-###Angular
+###Google releases AngularJs
 ![Bane holds Batman](images/content/bane/bane_picks_batman.jpg)
 
 ---
 
-### ExpressJs, KnockoutJs, Backbone, Underscore
+###Emergence of first full JavaScript stack!
+
+---
+
+###ExpressJs, KnockoutJs, Backbone, Underscore
 <img alt="Bane breaks Batman" src="images/content/bane/bane_breaks_batman.jpg" class="mh500" /> 
 
 ***
 
-##2011
+##It`s 2011
 
 
 ---
@@ -403,7 +514,7 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2012
+##It`s 2012
 
 ---
 
@@ -412,24 +523,25 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2013
+##It`s 2013
 
 ---
 
-###IE 11
+###Microsoft releases Chakra engine
 ![Why do we fall Bruce?](images/content/WhyDoWeFall.gif)
 
 ---
-###OWIN / Katana and SignalR
+###OWIN, Katana and SignalR
 ![So that we can get up!](images/content/PickUpLie.gif)
 
 ---
 
+###Facebook invents React
 ![React Invented!](images/content/gentelmen.jpg)
 
 ***
 
-##2014
+##It`s 2014
 
 ---
 
@@ -445,7 +557,7 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2015
+##It`s 2015
 
 ---
 
@@ -475,7 +587,7 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2016
+##It`s 2016
 
 ---
 
@@ -484,7 +596,7 @@ Added support for JSON and POX to WCF
 
 ***
 
-##2017
+##It`s 2017
 
 ---
 
@@ -494,11 +606,6 @@ Added support for JSON and POX to WCF
 ***
 
 ###Summary
-
----
-
-###Browser Wars
-<img alt="Browser wars" src="images/Browser_Wars_(en).png" class="img-white" />
 
 ---
 
@@ -516,247 +623,8 @@ https://www.techempower.com/benchmarks/
 
 ###Stack
 
-<img alt="ASP.NET Core architecture" src="images/content/asp_core_architecture_transparent.png" class="img-white" />
-
----
-
-###Kestrel
-
-<img alt="Kestrel" class="img mh500" src="images/content/kestrel_bird.jpg" class="img-white" /> 
-
----
-
-Kestrel is a cross-platform web server for ASP.NET Core based on libuv, a cross-platform asynchronous I/O library. Kestrel is the web server that's included by default in ASP.NET Core project templates. 
-
----
-###Kestrel features
-
-* Non-blocking network support
-* Asynchronous file system access
-* Timers
-* Child processes
-
----
-
-###Mediator pattern
-
-![ATC mediator](images/content/ATC_mediator.gif)
-
----
-
-Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
-
----
-
-###From
-
-![Layer architecture](images/content/onion.png)
-
----
-
-###To
-
-![Vertical separation](images/content/Vertical_separation.png)
-
----
-
-###CQRS
-
-![MediatR reuest model](images/content/MediatR.png)
-
----
-
-###Frontend Stack
-<img alt="ES6 logo" src="images/content/logos/react.png" class="h200" />
-<img alt="ES6 logo" src="images/content/logos/cerebraljs.png" class="h200" />
-<img alt="ES6 logo" src="images/content/logos/material_design.png" class="h200" />
-
-***
-
-###Journey of request
-
----
-
-###Human
-![Smart monkey](images/content/user.jpg)
-
----
-
-###React component
-```js
-import React, {Component} from 'react';
-import Paper from 'material-ui/Paper';
-import FlatButton from 'material-ui/FlatButton';
-
-class Cell extends Component {
-    constructor (props) {
-        super(props);
-        this.handleOnMakeMove = this.handleOnMakeMove.bind(this);
-    }
-    handleOnMakeMove () {
-        const { cellId, makeMove } = this.props;
-        makeMove({cellId});
-    }
-    render () {
-        return (
-            <Paper className={className} zDepth={isActiveAndNotMarked}>
-                <FlatButton label={cellValue}/>
-            </Paper>
-        );
-    }
-}
-```
-
----
-
-###Event calls Cerebral signal "makeMove"
-```js
-import {signal} from 'cerebral/tags';
-import {connect} from '@cerebral/react';
-import Cell from './Cell';
-
-connect({
-    makeMove: signal`makeMove`
-}, Cell);
-```
-
----
-
-###Cerebral calls chain
-```js
-import { Module } from 'cerebral';
-import MakeMoveChain from './chain/makeMoveChain'
-
-export default Module({
-  signals: {
-    makeMove: MakeMoveChain,
-  }
-});
-```
-
----
-
-###Chain calls service
-
-```js
-import SendMakeMoveRequest from '../action/sendMakeMoveRequest';
-import MapMakeMoveRequestResponseToState from '../action/mapMakeMoveRequestResponseToState';
-
-const MakeMoveChain = [SendMakeMoveRequest, MapMakeMoveRequestResponseToState];
-
-export default MakeMoveChain;
-```
-
----
-
-###Service call via SendMakeMoveRequest
-
-```js
-import request from 'superagent';
-
-export default function SendMakeMoveRequest({ props }) {
-    return request
-        .post(`http://localhost:63566/game/move/${props.cellId}`)
-        .send()
-        .then(response => {
-        return { makeMoveRequestResponse: response.body }
-    });
-}
-```
-
----
-
-###Kestrel receives request
-
----
-
-###Middleware
-
----
-
-###Controller
-
-```csharp
- public class MagicController : Controller
-{
-    private readonly IMediator _mediator;
-
-    public MagicController(IMediator mediator)
-    {
-        _mediator = mediator;
-    }
-
-    [HttpPost, Route("spell/cast/{spellId}")]
-    public async Task<IActionResult> CastSpell(int spellId)
-    {   
-        var castSpellResponse = await _mediator.Send(new CastSpellRequest(spellId));
-        return Ok(castSpellResponse);
-    }
-}
-```
-
----
-
-###Mediator
-
-```csharp
-builder.RegisterType<Mediator>().As<IMediator>().InstancePerLifetimeScope();
-
-// request handlers
-builder
-    .Register<SingleInstanceFactory>(ctx => {
-        var c = ctx.Resolve<IComponentContext>();
-        return t => { object o; return c.TryResolve(t, out o) ? o : null; };
-    })
-    .InstancePerLifetimeScope();
-
-// notification handlers
-builder
-    .Register<MultiInstanceFactory>(ctx => {
-        var c = ctx.Resolve<IComponentContext>();
-        return t => 
-            (IEnumerable<object>)c.Resolve(
-                typeof(IEnumerable<>).MakeGenericType(t)
-            );
-    })
-    .InstancePerLifetimeScope();
-```
-
----
-
-###Handler
-
-```csharp
-public class MagicHandler : RequestHandler<CastSpellRequest, CastSpellResponse>
-{
-    private readonly IManaPool _manaPool;
-
-    public CreateBoardHandler(IManaPool manaPool)
-    {
-        _manaPool = manaPool;
-    }
-
-    protected override CastSpellResponse HandleCore(CastSpellRequest request)
-    {
-        //...
-    }
-}
-```
-
----
-
-###Service
-
-```csharp
-public interface IManaPool
-{
-    int GetSomeMana();
-}
-```
-
-***
-
-###Layers of separation - SOLID
+* React + CerebralJs
+* Kestrel + MediatR
 
 ***
 
@@ -775,19 +643,6 @@ public interface IManaPool
 ***
 
 ###DEMO :)
-
-***
-
-###Improvements
-
----
-
-###Interceptors
-
----
-
-### Monads - Result & Option 
-![Monad monster](images/content/monad.jpg)
 
 ***
 
