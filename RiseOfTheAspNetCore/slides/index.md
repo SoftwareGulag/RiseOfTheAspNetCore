@@ -634,39 +634,6 @@ https://www.techempower.com/benchmarks/
 
 ***
 
-###How can we use this thing?
-
-***
-
-###Web application in 5 min :)
-
-***
-
-###Stack
-
-* React + CerebralJs
-* Kestrel + MediatR
-
-***
-
-###Pros and cons
-
-* Pros:
-    - decoupling
-    - performance
-    - easy to extend
-    - flexible
-
-* Cons:
-    - celebration
-    - heavily depends on MediatR and Container
-
-***
-
-###DEMO :)
-
-***
-
 ![Tank You!](images/epilogue/tank_you.jpg)
 
 ***
