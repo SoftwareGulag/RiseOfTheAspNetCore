@@ -61,11 +61,6 @@ Paweł Jeliński
 ---
 
 ###How teammates see me
-![Justice!](images/introduction/pawel/justice.jpg)
-
----
-
-###What does our boss see
 ![Spanish Inquisition](images/introduction/pawel/spanish_inquisition.jpg)
 
 ---
@@ -87,6 +82,10 @@ Paweł Jeliński
 
 ###What are we going to talk about
 ![Spoon](images/introduction/spoon.jpg)
+
+---
+
+###Short history of ASP and friends :)
 
 ***  
 
