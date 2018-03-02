@@ -14,19 +14,6 @@ Paweł Jeliński
 
 ***
 
-###Who do we work for?
-
----
-
-![Jet Shop](images/introduction/jetshop.png)
-
----
-
-###Aka " The Jetson team " :)
-![Jetsons Team](images/introduction/jetsons_team.jpg)
-
-***
-
 ###Who are we?
 ![Jetsons Team](images/introduction/drombo.jpg)
 
@@ -62,6 +49,20 @@ Paweł Jeliński
 
 ###To be more exact
 ![Inquisitor](images/introduction/pawel/inquisitor.jpg)
+
+***
+
+###Who do we work for?
+
+---
+
+![Jet Shop](images/introduction/jetshop.png)
+
+---
+
+###Aka " The Jetson team " :)
+![Jetsons Team](images/introduction/jetsons_team.jpg)
+
 
 *** 
 
